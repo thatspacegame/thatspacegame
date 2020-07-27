@@ -1,6 +1,6 @@
-# Nebula 13
+# Thatspacegame
 
-[Discord](https://discord.gg/Ddw58yF) - [Code](http://github.com/NebulaSS13/Nebula/)
+A few paddles downstream from [NebulaSS13](https://github.com/NebulaSS13/Nebula/) - [Code](https://github.com/thatspacegame/thatspacegame/)
 
 ---
 
