@@ -1,6 +1,6 @@
-/datum/map/tradeship
-	name = "Tradeship"
-	full_name = "Tradeship Ocelot Alpha"
+/datum/map/cassandra
+	name = "Cassandra"
+	full_name = "ITV Cassandra"
 	path = "tradeship"
 	ground_noun = "deck"
 
