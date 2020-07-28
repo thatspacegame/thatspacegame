@@ -26,6 +26,8 @@ jobs:
       env: TEST=MAP MAP_PATH=example
     - name: "Map - Tradeship"
       env: TEST=MAP MAP_PATH=tradeship
+    - name: "Map - Cassandra"
+      env: TEST=MAP MAP_PATH=cassandra
     - name: "Map - Away Sites"
       env: TEST=MAP MAP_PATH=away_sites_testing
 
