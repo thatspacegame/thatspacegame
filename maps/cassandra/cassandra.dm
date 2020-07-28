@@ -3,19 +3,19 @@
 	#include "../../mods/corporate/_corporate.dme"
 	#include "../../mods/ascent/_ascent.dme"
 
-	#include "tradeship_antagonists.dm"
-	#include "tradeship_areas.dm"
-	#include "tradeship_documents.dm"
-	#include "tradeship_jobs.dm"
-	#include "tradeship_loadouts.dm"
-	#include "tradeship_overmap.dm"
-	#include "tradeship_shuttles.dm"
-	#include "tradeship_spawnpoints.dm"
-	#include "tradeship_unit_testing.dm"
-	#include "tradeship-0.dmm"
-	#include "tradeship-1.dmm"
-	#include "tradeship-2.dmm"
-	#include "tradeship-3.dmm"
+	#include "cassandra_antagonists.dm"
+	#include "cassandra_areas.dm"
+	#include "cassandra_documents.dm"
+	#include "cassandra_jobs.dm"
+	#include "cassandra_loadouts.dm"
+	#include "cassandra_overmap.dm"
+	#include "cassandra_shuttles.dm"
+	#include "cassandra_spawnpoints.dm"
+	#include "cassandra_unit_testing.dm"
+	#include "cassandra-0.dmm"
+	#include "cassandra-1.dmm"
+	#include "cassandra-2.dmm"
+	#include "cassandra-3.dmm"
 
 	#include "jobs/_jobs.dm"
 	#include "jobs/command.dm"
@@ -40,10 +40,10 @@
 	#include "../away/errant_pisces/errant_pisces.dm"
 	#include "../away/unishi/unishi.dm"
 
-	#define USING_MAP_DATUM /datum/map/tradeship
+	#define USING_MAP_DATUM /datum/map/cassandra
 
 #elif !defined(MAP_OVERRIDE)
 
-	#warn A map has already been included, ignoring Tradeship
+	#warn A map has already been included, ignoring cassandra
 
 #endif
