@@ -169,7 +169,7 @@
 /area/ship/cassandra/maintenance
 	name = "\improper Maintenance"
 	icon_state = "yellow"
-	req_access = "access_maint_tunnels"
+	req_access = list(access_maint_tunnels)
 	turf_initializer = /decl/turf_initializer/maintenance
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
