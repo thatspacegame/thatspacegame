@@ -290,7 +290,7 @@
 "SJ" = (/obj/machinery/door/blast/regular{id_tag = "cass_rndright"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "SR" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "SX" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/maintenance{name = "Deck 3 Substation"},/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3sub)
-"SY" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
+"SY" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "Tf" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Tk" = (/obj/machinery/atmospherics/binary/pump/buildable{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "Tu" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
@@ -358,7 +358,7 @@ hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTxTcIHHcIcIcIHHcIRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTxTcIHHcIGmcIHHcIRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTGmsmSxsmGmpZSJpZRuRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrCILunaFGiJYHEDyAzYavEDavzYqHWqJLxEWqRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfWgHXoEyKejwDWyEDScawjyEDcAawjYWqMhFuWqRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
