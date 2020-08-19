@@ -1,6 +1,3 @@
-/datum/unit_test/station_wires_shall_be_connected
-	exceptions = list(list(48, 54, 3, EAST))
-
 /datum/map/cassandra
 	// Unit test exemptions
 	apc_test_exempt_areas = list(
