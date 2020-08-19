@@ -43,7 +43,7 @@
 "iJ" = (/obj/structure/lattice,/turf/space,/area/space)
 "iQ" = (/obj/structure/cable/green,/obj/machinery/power/apc{dir = 2; name = "south bump"; pixel_y = -24},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/turf/simulated/floor/tiled,/area/ship/cassandra/shafts/D1)
 "jd" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/obj/effect/landmark/start,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable/green{icon_state = "1-8"},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/crew)
-"jg" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/obj/structure/railing/mapped,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1)
+"jg" = (/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/obj/machinery/atmospherics/pipe/manifold/hidden/supply,/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1)
 "jD" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/crew)
 "jG" = (/obj/machinery/atmospherics/unary/vent_scrubber/on,/turf/simulated/floor/tiled/white,/area/ship/cassandra/medbay/surgery)
 "jN" = (/obj/machinery/atmospherics/pipe/simple/hidden,/obj/machinery/door/airlock/external/bolted{id_tag = "d1_airlock_in"},/turf/simulated/floor/plating,/area/ship/cassandra/dock/d1)
@@ -153,7 +153,6 @@
 "Bs" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/door/firedoor,/obj/machinery/door/airlock/glass/security{name = "Forensics Lab"},/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/tiled/white,/area/ship/cassandra/security/forensics)
 "Bv" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/cassandra/dock/d1)
 "BI" = (/obj/machinery/airlock_sensor{id_tag = "d1_airlock_sensor"; pixel_x = 25},/obj/machinery/atmospherics/pipe/manifold/hidden{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/dock/d1)
-"BJ" = (/obj/effect/floor_decal/industrial/loading{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1)
 "BP" = (/obj/structure/cable/yellow{icon_state = "1-2"},/obj/machinery/button/alternate/door/bolts{dir = 4; id_tag = "d1solarseva"; name = "Solars EVA Access Bolt"; pixel_x = -25; req_access = list(access_engine)},/obj/structure/sign/warning/vacuum{dir = 4; pixel_x = -46},/obj/effect/floor_decal/industrial/warning/dust/corner{dir = 1},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/solars/d1scontrol)
 "Ci" = (/obj/machinery/light/small/red{dir = 1},/obj/machinery/power/breakerbox/activated{RCon_tag = "First Deck Substation"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1sub)
 "Cn" = (/turf/simulated/wall/prepainted,/area/ship/cassandra/medbay)
@@ -305,9 +304,9 @@
 "Xn" = (/obj/machinery/alarm{dir = 4; icon_state = "alarm0"; pixel_x = -24},/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/valve/shutoff/buildable,/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D1)
 "Xu" = (/turf/simulated/wall/r_wall/prepainted,/area/ship/cassandra/crew)
 "Xx" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/obj/effect/landmark{name = "JoinLateCryo"},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/crew)
-"Xz" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/structure/railing/mapped,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1)
 "Yb" = (/obj/structure/sign/directions/engineering{pixel_y = 6},/obj/structure/sign/directions/bridge,/obj/structure/sign/directions/science{pixel_y = -6},/turf/simulated/wall/prepainted,/area/ship/cassandra/shafts/D1)
 "Yi" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable/green{icon_state = "0-4"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d1sub)
+"Yl" = (/obj/structure/sign/warning/moving_parts{dir = 8; pixel_x = 35},/turf/simulated/open,/area/turbolift/cassandra1)
 "Yn" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/structure/cable{icon_state = "1-2"},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D1)
 "Yp" = (/obj/machinery/power/solar_control{dir = 1; id_tag = "d1solars"},/obj/structure/cable/yellow,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/solars/d1scontrol)
 "YB" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/firedoor,/obj/machinery/door/airlock/medical{name = "Operating Theater"},/obj/machinery/holosign/surgery{id_tag = "surg_sign"},/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/tiled/white,/area/ship/cassandra/medbay/chemistry)
@@ -369,11 +368,11 @@ eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngngngFRTWHedKlLaCaCaCaCHUUuADKTLXDmpo
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngngIByDTWHeaCEYaCaCaCKSobUuLZEqtoHFJKJKJnKkQRIQQmxMxMKNmkMlxMxMtzQmeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngngkPMAUsYBJSNDeWJSJSOSidSIhzcuTVYbnynyhsPIPcPIWXSdSdSdPpSdSdSdSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngPFTWTWTWHeaCRQaCuMuMuMuMuMmeMSwxAlHuHuhsTQHbSFfhSdRWRWVHRWRWSdSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
-eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngOFOFOFOFOFaCRQtkuMUIWtUIuMXnYnwxAlHuHuhsTQYESFVaSdYZzJtQRzRWSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
+eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDngOFOFOFOFOFaCRQtkuMUIWtUIuMXnYnwxAlHuYlhsTQYESFVaSdYZzJtQRzRWSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhbHjGLpsPaCaCZgAfuMuiUIIVuMiQevwxnrHuHuhsTQsegHcPSdGYGYLFGYGYSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhPEbfbHsPaCdzzNaCuMIFLUqWuMhsumhshshshshsPINwPIPISdSdSdSdSdSdSdSdeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
-eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhVxHDruPBJSJSigJSfVQIldpNswkrScDdDdDdDdDdXzjgDdDdbPuxuxKOXgzlzleDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
-eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhVhVhVhVhXeXeXeXezlzlzlzlzlzlzlzlzlhtzlzlIABJIAIAzlzlzlzlzlzlzleDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
+eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhVxHDruPBJSJSigJSfVQIldpNswkrScDdDdDdDdDdDdjgDdDdbPuxuxKOXgzlzleDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
+eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhVhVhVhVhXeXeXeXezlzlzlzlzlzlzlzlzlhtzlzlIAIAIAIAzlzlzlzlzlzlzleDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVhVhVhVhVhXeXeXeXezlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzlzleDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDVzVzVzVzeDeDeDeDeDeDeDeDVzVzVzVzeDeDeDeDeDeDeDeDVzVzVzVzeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
 eDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeDeD
