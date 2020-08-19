@@ -1,6 +1,7 @@
 "ak" = (/obj/effect/wallframe_spawn/reinforced/no_grille,/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "al" = (/obj/machinery/portable_atmospherics/canister/nitrogen,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos/storage)
 "ap" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3bay)
+"av" = (/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "aw" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 6},/obj/machinery/atmospherics/pipe/simple/hidden/black{dir = 9},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "aD" = (/obj/structure/cable/green{icon_state = "2-8"},/obj/structure/cable/green{icon_state = "1-2"},/obj/structure/cable/green{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 8},/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 8},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
 "aO" = (/obj/machinery/light/small,/obj/machinery/atmospherics/unary/vent_pump/on{dir = 4},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
@@ -15,7 +16,7 @@
 "ci" = (/obj/machinery/light/small{dir = 4},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
 "cs" = (/turf/simulated/wall/r_wall/hull,/area/ship/cassandra/engineering/atmos)
 "cA" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/obj/machinery/light/small{dir = 8},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
-"cI" = (/turf/simulated/floor/airless,/area/space)
+"cI" = (/turf/simulated/floor/airless,/area/ship/cassandra/science/lab)
 "cV" = (/obj/machinery/atmospherics/portables_connector,/obj/structure/catwalk,/obj/machinery/portable_atmospherics/powered/pump/filled,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "dd" = (/obj/machinery/atmospherics/pipe/simple/hidden/universal{dir = 4},/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/monotile,/area/ship/cassandra/shafts/D3)
 "dI" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 6},/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3bay)
@@ -51,13 +52,14 @@
 "hI" = (/obj/machinery/disposal/deliveryChute{dir = 1},/obj/structure/disposalpipe/trunk,/obj/structure/window/reinforced{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "id" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/cable/green{icon_state = "2-8"},/obj/structure/closet/crate/trashcart,/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
 "ih" = (/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
-"im" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{icon_state = "2-4"},/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
+"im" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{icon_state = "2-4"},/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "iw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "iJ" = (/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3bay)
 "iQ" = (/obj/machinery/alarm{dir = 4; icon_state = "alarm0"; pixel_x = -24},/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 "iX" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "air_out"; internal_pressure_bound = 2000; internal_pressure_bound_default = 2000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/oxygen,/area/ship/cassandra/engineering/atmos)
 "jv" = (/turf/simulated/floor/reinforced/carbon_dioxide,/area/ship/cassandra/engineering/atmos)
 "jy" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/obj/machinery/light/small{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
+"jG" = (/obj/structure/closet/crate/trashcart,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "jH" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/cable{icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "jU" = (/turf/simulated/wall,/area/ship/cassandra/maintenance/d3)
 "jY" = (/obj/machinery/atmospherics/unary/vent_pump/on{dir = 8},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
@@ -97,8 +99,8 @@
 "pZ" = (/obj/machinery/door/blast/regular{id_tag = "cass_rndright"},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "qn" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 "qw" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
+"qH" = (/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "qJ" = (/obj/effect/wallframe_spawn/reinforced/no_grille,/obj/machinery/atmospherics/pipe/simple/visible/red,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
-"rd" = (/obj/structure/closet/crate/trashcart,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "ri" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/structure/catwalk,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/cargo)
 "rp" = (/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
 "rr" = (/obj/machinery/power/apc{dir = 8},/obj/structure/cable/green{icon_state = "0-4"},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
@@ -111,7 +113,6 @@
 "sQ" = (/obj/effect/floor_decal/industrial/warning{dir = 4; icon_state = "warning"},/obj/machinery/atmospherics/pipe/simple/visible/cyan,/obj/structure/railing/mapped{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "te" = (/obj/structure/cable{icon_state = "1-8"},/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3sub)
 "tk" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 1},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
-"tl" = (/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "tq" = (/obj/machinery/computer/modular/preset/merchant{dir = 4},/turf/simulated/floor/tiled/dark/monotile,/area/ship/cassandra/cargo)
 "ts" = (/obj/structure/cable/green{icon_state = "1-8"},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "tv" = (/turf/simulated/floor/tiled,/area/ship/cassandra/science)
@@ -166,6 +167,7 @@
 "zT" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 0; external_pressure_bound_default = 0; icon_state = "map_vent_in"; id_tag = "air_out"; internal_pressure_bound = 2000; internal_pressure_bound_default = 2000; pressure_checks = 2; pressure_checks_default = 2; pump_direction = 0; use_power = 1},/turf/simulated/floor/reinforced/airmix,/area/ship/cassandra/engineering/atmos)
 "zV" = (/obj/effect/floor_decal/industrial/warning/corner{dir = 4},/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/machinery/meter,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "zW" = (/obj/effect/wallframe_spawn/reinforced/no_grille,/obj/machinery/atmospherics/pipe/simple/visible/cyan,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
+"zY" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Ab" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3bay)
 "Ap" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{dir = 8; external_pressure_bound = 140; external_pressure_bound_default = 140; icon_state = "map_vent_out"; use_power = 1},/turf/simulated/floor/airless,/area/ship/cassandra/engineering/atmos)
 "Aq" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 9},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
@@ -174,7 +176,6 @@
 "AL" = (/obj/machinery/door/firedoor,/obj/effect/wallframe_spawn/reinforced/no_grille,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "Bj" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "BB" = (/turf/simulated/floor/reinforced/nitrogen,/area/ship/cassandra/engineering/atmos)
-"BO" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/structure/cable{icon_state = "0-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "Cl" = (/obj/machinery/light/small,/obj/effect/floor_decal/industrial/warning{dir = 8; icon_state = "warning"},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
 "Ct" = (/obj/effect/floor_decal/industrial/warning{dir = 4},/obj/structure/cable/green{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
 "CC" = (/obj/machinery/atmospherics/binary/pump/buildable,/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
@@ -194,7 +195,6 @@
 "ED" = (/turf/simulated/wall,/area/ship/cassandra/science/lab)
 "EM" = (/obj/structure/closet/jcloset,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "Fu" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 8},/turf/simulated/floor/tiled/dark/monotile,/area/ship/cassandra/command/comms/d3ntnet)
-"Fv" = (/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Fy" = (/obj/machinery/atmospherics/omni/mixer{active_power_usage = 7500; tag_east = 1; tag_east_con = 0.21; tag_north = 2; tag_west = 1; tag_west_con = 0.79},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "FG" = (/obj/machinery/power/apc{dir = 1},/obj/structure/cable/green{icon_state = "0-2"},/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3)
 "FS" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/reinforced/carbon_dioxide,/area/ship/cassandra/engineering/atmos)
@@ -211,11 +211,10 @@
 "GL" = (/obj/effect/floor_decal/industrial/hatch/yellow,/obj/machinery/conveyor_switch/oneway{convdir = -1; id_tag = "garbage"; name = "disposals conveyor"},/obj/machinery/button/blast_door{id_tag = "disposals"; name = "disposals shutters control"; pixel_y = 30},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "Hx" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/alarm{pixel_y = 24},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "Hy" = (/obj/machinery/light/small{dir = 1},/obj/structure/catwalk,/turf/simulated/floor/plating,/area/ship/cassandra/cargo)
-"HH" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 140; external_pressure_bound_default = 140; icon_state = "map_vent_out"; use_power = 1},/turf/simulated/floor/airless,/area/space)
+"HH" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume{external_pressure_bound = 140; external_pressure_bound_default = 140; icon_state = "map_vent_out"; use_power = 1},/turf/simulated/floor/airless,/area/ship/cassandra/science/lab)
 "HK" = (/obj/structure/ladder,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "HM" = (/obj/machinery/door/airlock/vault{name = "Telecomms Relay"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/dark/monotile,/area/ship/cassandra/maintenance/d3f)
 "HX" = (/obj/machinery/atmospherics/unary/vent_pump/high_volume/external_air{dir = 4; id_tag = "dock_port_pump"},/turf/simulated/floor/tiled/dark/monotile,/area/ship/cassandra/dock/d3)
-"Ig" = (/obj/machinery/alarm{dir = 8; icon_state = "alarm0"; pixel_x = 24},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "IR" = (/obj/machinery/atmospherics/pipe/simple/visible/red,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/meter,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "Jc" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/airlock/maintenance{name = "Pipe Chase"},/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "Jf" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
@@ -227,7 +226,6 @@
 "JM" = (/obj/structure/ladder,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "JX" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/structure/cable/green{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "Kd" = (/obj/structure/window/reinforced,/obj/effect/floor_decal/industrial/warning,/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
-"Km" = (/obj/machinery/door/blast/regular{id_tag = "cass_rndright"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "KD" = (/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "KF" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "KG" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/effect/floor_decal/industrial/warning{dir = 8},/turf/simulated/floor/tiled,/area/ship/cassandra/shafts/D3)
@@ -280,6 +278,7 @@
 "Rm" = (/obj/machinery/portable_atmospherics/powered/scrubber,/obj/machinery/atmospherics/portables_connector{dir = 8},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "Ru" = (/turf/simulated/wall/r_wall/hull,/area/ship/cassandra/command/comms/d3ntnet)
 "Rw" = (/obj/effect/floor_decal/industrial/warning{dir = 1},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
+"RH" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 "RK" = (/obj/structure/cable/green{icon_state = "4-8"},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
 "Sc" = (/obj/machinery/atmospherics/unary/vent_scrubber/on{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Sp" = (/turf/simulated/wall,/area/ship/cassandra/shafts/D3)
@@ -288,14 +287,13 @@
 "Sx" = (/obj/machinery/door/blast/regular{id_tag = "cass_rndleft"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Sz" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/visible/universal,/obj/machinery/door/airlock/hatch/maintenance/bolted{id_tag = null; name = "Atmospherics"},/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "SD" = (/turf/simulated/wall,/area/ship/cassandra/engineering/atmos/storage)
-"SI" = (/obj/machinery/atmospherics/pipe/manifold/visible/fuel{dir = 1; icon_state = "map"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
+"SJ" = (/obj/machinery/door/blast/regular{id_tag = "cass_rndright"},/obj/machinery/atmospherics/pipe/simple/hidden/black,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "SR" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "SX" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/door/airlock/maintenance{name = "Deck 3 Substation"},/obj/machinery/door/firedoor,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3sub)
-"SY" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/structure/cable/green{icon_state = "1-2"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
+"SY" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "Tf" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/plating,/area/ship/cassandra/science/lab)
 "Tk" = (/obj/machinery/atmospherics/binary/pump/buildable{dir = 4},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
 "Tu" = (/obj/effect/floor_decal/industrial/warning{dir = 9},/turf/simulated/floor/tiled/dark,/area/ship/cassandra/cargo)
-"Ui" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 "Un" = (/obj/machinery/light/small{dir = 8},/turf/simulated/floor/tiled,/area/ship/cassandra/science)
 "Uv" = (/obj/machinery/atmospherics/pipe/simple/visible/fuel{dir = 10},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 9},/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "1-4"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "UB" = (/obj/machinery/atmospherics/pipe/simple/visible/red{dir = 4},/obj/structure/cable{icon_state = "4-8"},/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
@@ -316,9 +314,10 @@
 "Xa" = (/turf/simulated/wall,/area/ship/cassandra/maintenance/d3sub)
 "Xn" = (/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/turf/simulated/floor/tiled,/area/ship/cassandra/shafts/D3)
 "XD" = (/obj/effect/wallframe_spawn/reinforced/no_grille,/obj/machinery/atmospherics/pipe/simple/visible/fuel,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
+"XL" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 "XP" = (/obj/structure/cable/green{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,/obj/machinery/atmospherics/pipe/simple/hidden/supply,/turf/simulated/floor/tiled,/area/ship/cassandra/dock/d3bay)
 "XV" = (/obj/machinery/atmospherics/unary/outlet_injector{dir = 4; icon_state = "map_injector"; id_tag = "co2_waste_in"; use_power = 1},/turf/simulated/floor/reinforced/carbon_dioxide,/area/ship/cassandra/engineering/atmos)
-"XZ" = (/obj/structure/cable{icon_state = "1-8"},/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
+"XZ" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 9; pixel_y = 0},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3)
 "Yh" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 1},/turf/simulated/floor/tiled,/area/ship/cassandra/shafts/D3)
 "Yk" = (/obj/structure/disposalpipe/trunk{dir = 1},/obj/structure/disposaloutlet,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/disposal)
 "Yq" = (/obj/machinery/atmospherics/pipe/simple/visible/green{dir = 5; icon_state = "intact"},/obj/machinery/meter,/turf/simulated/floor/plating,/area/ship/cassandra/engineering/atmos)
@@ -329,7 +328,6 @@
 "Zt" = (/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 5},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/effect/catwalk_plated,/turf/simulated/floor/plating,/area/ship/cassandra/shafts/D3)
 "Zy" = (/obj/machinery/atmospherics/pipe/manifold/hidden/supply{dir = 4},/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{dir = 4},/obj/structure/cable/green{icon_state = "1-8"},/obj/machinery/power/apc{dir = 4; pixel_w = 1},/obj/structure/cable/green{icon_state = "0-8"},/turf/simulated/floor/plating,/area/ship/cassandra/maintenance/d3f)
 "Zz" = (/turf/simulated/wall/r_wall/hull,/area/space)
-"ZU" = (/obj/structure/cable/green{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{dir = 4},/obj/machinery/atmospherics/pipe/simple/hidden/supply{dir = 4},/obj/machinery/door/firedoor,/turf/simulated/floor/tiled/white,/area/ship/cassandra/science/lab)
 
 (1,1,1) = {"
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
@@ -361,16 +359,16 @@ hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTxTcIHHcIcIcIHHcIRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTGmsmSxsmGmpZKmpZRuRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrCILunaFGiJYHEDyAFvtlEDtlFvIgWqJLxEWqRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrSrSrSrxTxTxTGmsmSxsmGmpZSJpZRuRuRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrCILunaFGiJYHEDyAzYavEDavzYqHWqJLxEWqRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfWgHXoEyKejwDWyEDScawjyEDcAawjYWqMhFuWqRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrnananavXiJfMEDtlTftlEDtlTftlWqpQMNWqRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfSrnananavXiJfMEDavTfavEDavTfavWqpQMNWqRuRuRuhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJiJdIapAbiJEDaQLQaQEDaQLQaQGgHMSDSDSDSDfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJtZLBvXiJiJEDiQUiucucucUiucGgMqSDgJalalfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJiJwCEblDJCEDpvUiucucucUigXGgfQehhqYJJxfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJtZLBvXiJiJEDiQXLucucucXLucGgMqSDgJalalfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJiJwCEblDJCEDpvXLucucucXLgXGgfQehhqYJJxfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxTiJiJXPiJiJiJEDtDhiucucucMDoWGgMqSDOJDkDkfHhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfZzxTuAuAXPuAuAuAEDucUiucucucqnucAESYXaXaXaXamfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxrxrrrRKRKaDQXQXQXZUfLFUfLzHnmGbucGgimOWEwDXnlmfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfZzxTuAuAXPuAuAuAEDucXLucucucqnucAESYXaXaXaXamfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxrxrrrRKRKaDQXQXQXRHfLFUfLzHnmGbucGgimOWEwDXnlmfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfxrxrxrUntvtvWItvMociGgGgGgGgGgGgGgGgGgMqXaNqPiFWmfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfsurptvtvtvWQgGwEwxwEJciwiwiwiwiwiwiwiwZyXayrJKtemfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfsutvOcEsEsuXnktvzctvPlPlPlPlPlPlPlPlPlwfXaSXXaXamfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
@@ -384,8 +382,8 @@ hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoUQUQUQUQUQDjCMDjTuRwhvAxmiYhXnNzphLl
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPovYPQsFGLUQbeCMDjmhtkhvAxAxBjqwNzORLlgiPlIRPljvLAjvFSXVakkIRhQGAphfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoVxPQsFzrUQDjCMDjClnMwzVjbcZtnjNzORLlLlPlpRPljvjvjvbgjvakorxDcshfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoMiEMsFMXUQjUjUjUjUjUjUjUjUjUvmjUjUjUjUPlSzPlPlPlPlPlPlPlPlcscshfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPohIrdsFaZgIKDKDKDKDODGAGAGAGAXZJfHxJffCSRUvtQvkLILILILILIvjDCDChfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
-hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoDiPoPoPoPoDCvkLIvALIvALIvALISIBOvALIlbjUwJyHlbDCHKKNDCDCDCDCDChfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPohIjGsFaZgIKDKDKDKDODGAGAGAGAXZJfHxJffCSRUvtQvkLILILILILIvjDCDChfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
+hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoDiPoPoPoPoDCvkLIvALIvALIvALIvALIvALIlbjUwJyHlbDCHKKNDCDCDCDCDChfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfPoYkPoPoPoPoDCKdDCKdDCKdDCKdDCKdDCKdDCKdDCKdDCKdDCDCDCDCDCDCDCDChfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfZzPwZzPwZzPwZzPwZzPwZzPwZzPwZzPwZzPwZzhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
 hfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhfhf
