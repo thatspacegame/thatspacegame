@@ -12,6 +12,7 @@
 	#include "cassandra_shuttles.dm"
 	#include "cassandra_spawnpoints.dm"
 	#include "cassandra_unit_testing.dm"
+	#include "cassandra_security_state.dm"
 	#include "cassandra-0.dmm"
 	#include "cassandra-1.dmm"
 	#include "cassandra-2.dmm"
@@ -21,12 +22,14 @@
 	#include "jobs/engineering.dm"
 	#include "jobs/medical.dm"
 	#include "jobs/science.dm"
+	#include "jobs/security.dm"
 
 	#include "outfits/_outfits.dm"
 	#include "outfits/command.dm"
 	#include "outfits/engineering.dm"
 	#include "outfits/medical.dm"
 	#include "outfits/science.dm"
+	#include "outfits/security.dm"
 
 	#include "../away/mining/mining.dm"
 	#include "../away/derelict/derelict.dm"

@@ -18,7 +18,7 @@
 	company_short = "LC"
 	overmap_event_areas = 11
 	default_law_type = /datum/ai_laws/corporate
-	lobby_screens = list('maps/cassandra/lobby/bloodmoney.png','maps/cassandra/lobby/vapormoney.png')
+	lobby_screens = list('maps/cassandra/lobby/da.png')
 	use_overmap = 1
 	num_exoplanets = 3
 	welcome_sound = 'sound/effects/bells.ogg'
@@ -31,7 +31,7 @@
 	department_money = 0
 	salary_modifier = 0.2
 
-	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Please move to a shielded area such as the cargo bay, dormitories or medbay until the radiation has passed."
+	radiation_detected_message = "High levels of radiation have been detected in proximity of the %STATION_NAME%. Please move to a shielded area until the radiation has passed. These areas are marked with signs."
 
 /datum/map/cassandra/get_map_info()
 	return "You're aboard the <b>[station_name],</b> a survey and mercantile vessel affiliated with the Free Trade Union. \

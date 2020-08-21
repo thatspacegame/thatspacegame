@@ -1,7 +1,7 @@
-/datum/job/tradeship_captain
+/datum/job/cassandra_captain
 	title = "Captain"
 	supervisors = "your profit margin, your conscience, and the Trademaster"
-	outfit_type = /decl/hierarchy/outfit/job/tradeship/captain
+	outfit_type = /decl/hierarchy/outfit/job/cassandra/captain
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_WEAPONS  = SKILL_ADEPT,
@@ -29,13 +29,13 @@
 	not_random_selectable = 1
 	forced_spawnpoint = "Captain Compartment"
 
-/datum/job/tradeship_captain/get_access()
+/datum/job/cassandra_captain/get_access()
 	return get_all_station_access()
 
-/datum/job/tradeship_first_mate
+/datum/job/cassandra_first_mate
 	title = "First Mate"
 	supervisors = "the Captain"
-	outfit_type = /decl/hierarchy/outfit/job/tradeship/mate
+	outfit_type = /decl/hierarchy/outfit/job/cassandra/mate
 	hud_icon = "hudheadofpersonnel"
 	head_position = 1
 	department_refs = list(

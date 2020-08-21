@@ -1,16 +1,15 @@
 /datum/map/cassandra
 	default_assistant_title = "Deck Hand"
 	allowed_jobs = list(
-		/datum/job/tradeship_captain,
-		/datum/job/tradeship_engineer/head,
-		/datum/job/tradeship_doctor,
-		/datum/job/tradeship_researcher/head,
-		/datum/job/tradeship_first_mate,
-		/datum/job/cyborg,
+		/datum/job/cassandra_captain,
+		/datum/job/cassandra_engineer/head,
+		/datum/job/cassandra_doctor,
+		/datum/job/cassandra_emt,
+		/datum/job/cassandra_researcher,
+		/datum/job/cassandra_first_mate,
 		/datum/job/assistant,
-		/datum/job/tradeship_engineer,
-		/datum/job/tradeship_doctor/head,
-		/datum/job/tradeship_researcher
+		/datum/job/cassandra_engineer,
+		/datum/job/cassandra_law
 	)
 
 /obj/machinery/suit_cycler/tradeship

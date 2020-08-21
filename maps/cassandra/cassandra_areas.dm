@@ -26,6 +26,10 @@
 /area/ship/cassandra/crew
 	name = "\improper Crew Compartements"
 	icon_state = "crew_quarters"
+
+/area/ship/cassandra/crew/bunk
+	name = "\improper Crew Quarters"
+	icon_state = "crew_quarters"
 	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/ship/cassandra/crew/kitchen
@@ -61,6 +65,7 @@
 	name = "\improper Medical Storage"
 	icon_state = "locker"
 	req_access = list(access_medical_equip)
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/ship/cassandra/medbay/chemistry
 	name = "\improper Chemistry Bay"
@@ -88,12 +93,12 @@
 /area/ship/cassandra/security/cells
 	name = "\improper Holding Cells"
 	icon_state = "brig"
-	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/ship/cassandra/security/armory
 	name = "\improper Armory"
 	icon_state = "Warden"
 	req_access = list(access_armory)
+	area_flags = AREA_FLAG_RAD_SHIELDED
 
 /area/ship/cassandra/security/forensics
 	name = "\improper Forensics Lab"
