@@ -49,7 +49,7 @@
 		return 100
 	return round((oxygen_deprivation/species.total_health)*100)
 
-/obj/item/organ/internal/lungs/robotize()
+/obj/item/organ/internal/lungs/robotize(var/company, var/skip_prosthetics, var/keep_organs, var/apply_material = /decl/material/solid/metal/steel)
 	. = ..()
 	icon_state = "lungs-prosthetic"
 
@@ -105,7 +105,7 @@
 			else
 				to_chat(owner, "<span class='danger'>You're having trouble getting enough [breath_type]!</span>")
 
-			owner.losebreath += round(damage/2)
+			owner.losebreath = max(round(damage / 2), owner.losebreath)
 
 /obj/item/organ/internal/lungs/proc/rupture()
 	var/obj/item/organ/external/parent = owner.get_organ(parent_organ)
