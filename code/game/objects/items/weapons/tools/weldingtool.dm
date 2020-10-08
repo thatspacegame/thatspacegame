@@ -5,7 +5,7 @@
 	item_state = "welder"
 	desc = "A portable welding gun with a port for attaching fuel tanks."
 	obj_flags = OBJ_FLAG_CONDUCTIBLE
-	slot_flags = SLOT_BELT
+	slot_flags = SLOT_LOWER_BODY
 	center_of_mass = @"{'x':14,'y':15}"
 	force = 5
 	throwforce = 5
@@ -21,6 +21,9 @@
 	var/status = 1 		//Whether the welder is secured or unsecured (able to attach rods to it to make a flamethrower)
 	var/welding_resource = "welding fuel"
 	var/obj/item/welder_tank/tank = /obj/item/welder_tank // where the fuel is stored
+
+	var/activate_sound = 'sound/items/welderactivate.ogg'
+	var/deactivate_sound = 'sound/items/welderdeactivate.ogg'
 
 /obj/item/weldingtool/Initialize()
 	if(ispath(tank))
@@ -98,7 +101,7 @@
 		if (tank)
 			to_chat(user, SPAN_WARNING("\The [src] already has a tank attached - remove it first."))
 			return
-		if (user.get_active_hand() != src && user.get_inactive_hand() != src)
+		if(!(src in user.get_held_items()))
 			to_chat(user, SPAN_WARNING("You must hold the welder in your hands to attach a tank."))
 			return
 		if (!user.unEquip(W, src))
@@ -114,7 +117,7 @@
 
 
 /obj/item/weldingtool/attack_hand(mob/user)
-	if (tank && user.get_inactive_hand() == src)
+	if (tank && user.is_holding_offhand(src))
 		if (!welding)
 			user.visible_message("[user] removes \the [tank] from \the [src].", "You remove \the [tank] from \the [src].")
 			user.put_in_hands(tank)
@@ -199,7 +202,7 @@
 	//consider ourselves in a mob if we are in the mob's contents and not in their hands
 	if(isliving(src.loc))
 		var/mob/living/L = src.loc
-		if(!(L.l_hand == src || L.r_hand == src))
+		if(!(src in L.get_held_items()))
 			in_mob = L
 
 	if(in_mob)
@@ -235,8 +238,7 @@
 	item_state = welding ? "welder1" : "welder"
 	var/mob/M = loc
 	if(istype(M))
-		M.update_inv_l_hand()
-		M.update_inv_r_hand()
+		M.update_inv_hands()
 
 //Sets the welding state of the welding tool. If you see W.welding = 1 anywhere, please change it to W.setWelding(1)
 //so that the welding tool updates accordingly
@@ -263,6 +265,7 @@
 			else
 				src.force = tank.lit_force
 				src.damtype = BURN
+			playsound(src, activate_sound, 50, 1)
 			welding = 1
 			update_icon()
 			START_PROCESSING(SSobj, src)
@@ -281,6 +284,7 @@
 			src.force = initial(force)
 		else
 			src.force = tank.unlit_force
+		playsound(src, deactivate_sound, 50, 1)
 		src.damtype = BRUTE
 		src.welding = 0
 		update_icon()

@@ -35,7 +35,7 @@
 	burst = 1
 	one_hand_penalty = 0
 	w_class = ITEM_SIZE_NORMAL
-	slot_flags = SLOT_DENYPOCKET | SLOT_HOLSTER
+	slot_flags = SLOT_HOLSTER
 	projectile_type = /obj/item/projectile/beam/particle/small
 	firemodes = list(
 		list(mode_name="stun",   projectile_type = /obj/item/projectile/beam/stun),
@@ -49,7 +49,7 @@
 	var/datum/firemode/current_mode = firemodes[sel_mode]
 	overlays = list(
 		image(icon, "[get_world_inventory_state()]-[istype(current_mode) ? current_mode.name : "lethal"]"),
-		image(icon, "[get_world_inventory_state()]-charge-[Floor(power_supply.percent()/20)]")
+		image(icon, "[get_world_inventory_state()]-charge-[istype(power_supply) ? Floor(power_supply.percent()/20) : 0]")
 	)
 
 /obj/item/gun/magnetic/railgun/flechette/ascent

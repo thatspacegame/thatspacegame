@@ -7,7 +7,7 @@
 
 	layer = SIDE_WINDOW_LAYER
 	anchored = 1.0
-	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE | ATOM_FLAG_CHECKS_BORDER
+	atom_flags = ATOM_FLAG_NO_TEMP_CHANGE
 	obj_flags = OBJ_FLAG_ROTATABLE
 	alpha = 180
 	material = /decl/material/solid/glass
@@ -98,8 +98,8 @@
 	take_damage(proj_damage)
 
 /obj/structure/window/explosion_act(severity)
-	. = ..()
-	if(. && !QDELETED(src) && (severity != 3 || prob(50)))
+	..()
+	if(!QDELETED(src) && (severity != 3 || prob(50)))
 		physically_destroyed()
 
 /obj/structure/window/CanPass(atom/movable/mover, turf/target, height=0, air_group=0)
@@ -264,8 +264,8 @@
 	if (!G.force_danger())
 		to_chat(G.assailant, SPAN_DANGER("You need a better grip to do that!"))
 		return TRUE
-	var/def_zone = ran_zone(BP_HEAD, 20)
 	var/mob/affecting_mob = G.get_affecting_mob()
+	var/def_zone = ran_zone(BP_HEAD, 20, affecting_mob)
 	if(!affecting_mob)
 		attackby(G.affecting, G.assailant)
 		return TRUE
@@ -519,6 +519,7 @@
 	return
 
 /obj/structure/window/reinforced/crescent/hitby()
+	SHOULD_CALL_PARENT(FALSE)
 	return
 
 /obj/structure/window/reinforced/crescent/take_damage()
